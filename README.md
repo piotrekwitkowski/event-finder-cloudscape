@@ -1,4 +1,6 @@
 # event-finder-cloudscape
+[![codecov](https://codecov.io/gh/piotrekwitkowski/event-finder-cloudscape/branch/main/graph/badge.svg?token=TK7G0ZLAJ9)](https://codecov.io/gh/piotrekwitkowski/event-finder-cloudscape)
+
 Event Finder makes it easy to find upcoming events to attend across the globe! 🌎🌍🌏
 
 See live: https://piotrekwitkowski.github.io/event-finder-cloudscape/
