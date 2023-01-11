@@ -12,17 +12,17 @@ vi.mock('react-router-dom', async () => ({
 test('can be rendered with correct (known) event id', async () => {
   vi.spyOn(router, 'useParams').mockImplementationOnce(() => ({ id: "1" }));
   waitFor(() => render(
-    <router.BrowserRouter>
+    <router.HashRouter>
       <EventPage />
-    </router.BrowserRouter>
+    </router.HashRouter>
   ));
 });
 
 test('can be rendered with incorrect (unknown) event id', async () => {
   vi.spyOn(router, 'useParams').mockImplementationOnce(() => ({ id: "-1" }));
   waitFor(() => render(
-    <router.BrowserRouter>
+    <router.HashRouter>
       <EventPage />
-    </router.BrowserRouter>
+    </router.HashRouter>
   ));
 });

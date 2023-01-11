@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { getTestEvent } from '../../test/mocks';
 import { isAny, isGoing, isConsidering, matchesText, getMatchesStatus, dateCellFormatter, nameCellFormatter, nameSortingComparator, } from './content-table-utils';
 
@@ -95,7 +95,7 @@ describe('nameCellFormatter', () => {
   test('should return a Link component with the correct pathname and text', () => {
     const testEvent = getTestEvent({ id: 1, name: 'Test event' });
     const link = nameCellFormatter(testEvent);
-    render(<BrowserRouter>{link}</BrowserRouter>);
+    render(<HashRouter>{link}</HashRouter>);
 
     const linkRendered = screen.getByRole('link');
     expect((linkRendered as HTMLAnchorElement).pathname).toBe('/events/1');

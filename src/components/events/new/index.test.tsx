@@ -1,11 +1,11 @@
 import { render, waitFor } from "@testing-library/react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { NewEventPage } from ".";
 
 test('can be rendered', () => {
   waitFor(() => render(
-    <BrowserRouter>
+    <HashRouter>
       <NewEventPage />
-    </BrowserRouter>
+    </HashRouter>
   ));
 });

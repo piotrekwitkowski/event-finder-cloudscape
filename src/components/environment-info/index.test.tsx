@@ -1,11 +1,11 @@
 import { render } from "@testing-library/react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { EnvironmentInfoPage } from ".";
 
 test('can be rendered', () => {
   render(
-    <BrowserRouter>
+    <HashRouter>
       <EnvironmentInfoPage />
-    </BrowserRouter>
+    </HashRouter>
   );
 });
