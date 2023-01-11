@@ -1,6 +1,8 @@
 # event-finder-cloudscape
 Event Finder makes it easy to find upcoming events to attend across the globe! 🌎🌍🌏
 
+See live: https://piotrekwitkowski.github.io/event-finder-cloudscape/
+
 ------
 
 This is a demo project for learning best practices of the [Cloudscape Design Library](https://cloudscape.design/). It is here today thanks to these great projects:
