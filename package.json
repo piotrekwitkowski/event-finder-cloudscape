@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "@cloudscape-design/collection-hooks": "^1.0.20",
-    "@cloudscape-design/components": "^3.0.235",
-    "@cloudscape-design/design-tokens": "^3.0.9",
+    "@cloudscape-design/components": "^3.0.261",
+    "@cloudscape-design/design-tokens": "^3.0.11",
     "@cloudscape-design/global-styles": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -27,16 +27,16 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
-    "@types/react": "^18.0.31",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react-swc": "^3.2.0",
-    "@vitest/coverage-c8": "^0.29.8",
-    "@vitest/ui": "^0.29.8",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@vitejs/plugin-react-swc": "^3.3.0",
+    "@vitest/coverage-c8": "^0.30.1",
+    "@vitest/ui": "^0.30.1",
     "jsdom": "^21.1.1",
     "rollup-plugin-commonjs": "^10.1.0",
-    "sass": "^1.60.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.2.1",
-    "vitest": "^0.29.8"
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.3",
+    "vitest": "^0.30.1"
   }
 }
